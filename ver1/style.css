@@ -51,7 +51,8 @@
 /*背景*/
 /*背景*/
 /*線の色*/
-/*字の色*/
+/*年　タイトル 字の色*/
+/*コンテンツ 字の色*/
 /* Base */
 html {
   background: #ffffff;
@@ -81,8 +82,9 @@ h1 {
   border-top-right-radius: 4px;
   /*background: fade(@color-light, 20%);*/
   /*background: @contentbackground;*/
-  color: rgba(255, 255, 255, 0.9);
+  /*color: fade(white, 90%);*/
   /*コンテンツの白の濃さ*/
+  color: #ff6d9d;
   font-family: "Source Sans Pro", sans-serif;
   margin: 50px auto;
   letter-spacing: 0.5px;
@@ -108,7 +110,7 @@ h1 {
 .timeline .event {
   padding: 10px 10px;
   /*background: rgba(255, 255, 255, 0.3);*/
-  background: #eeadcd;
+  background: #ffffff;
   border-radius: 10px;
   border-bottom: 1px dashed rgba(255, 109, 157, 0.1);
   padding-bottom: 25px;
