@@ -53,10 +53,10 @@
 /*線の色*/
 /* Base */
 html {
-  background: #ff6d6d;
+  background: #ff6d9d;
 }
 body {
-  background: #ff6d6d;
+  background: #ff6d9d;
   font-size: 16px;
 }
 strong {
@@ -105,8 +105,9 @@ h1 {
   margin-bottom: 10px;
 }
 .timeline .event {
-  padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.3);
+  padding: 10px 10px;
+  /*background: rgba(255, 255, 255, 0.3);*/
+  background: #eeadcd;
   border-radius: 10px;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   padding-bottom: 25px;
@@ -137,7 +138,7 @@ h1 {
 .timeline .event:after {
   box-shadow: 0 0 0 4px #ffffff;
   left: -57.85px;
-  background: #ff8787;
+  background: #ff87ae;
   border-radius: 50%;
   height: 11px;
   width: 11px;
